@@ -15,7 +15,7 @@
 
 <body>
 
-    <nav class="d-md-none bg-dark" style="height:50px;">
+    <nav class="d-md-none bg-dark fixed-top" style="height:50px;">
         <h2 class="d-none">Navigation bar for the Geekland webpage where you can find the best products related to Star Wars, Harry Potter and The Avengers</h2>
         <img class="align-self-start ml-2 mt-1 ml-1 float-left" src="images/geekland-logo.jpeg" alt="Geekland-logo" width="50" height="40">
 
@@ -25,9 +25,9 @@
                     <i class="fas fa-home"></i> Home
                 </a>
             </li>
-            <li class="m-0 p-0 col-6 offset-3">
-                <a href="#" class="small text-success text-decoration-none font-weight-bold ">
-                    <i class="fas fa-jedi"></i> Star Wars
+            <li class="m-0 p-0 col-6">
+                <a href="#" class="small text-success text-decoration-none font-weight-bold">
+                    <i class="fab fa-asymmetrik"></i> Avengers 
                 </a>
             </li>
             <li class="m-0 p-0 col-6 pl-3">
@@ -35,32 +35,70 @@
                     <i class="fas fa-quidditch"></i> Harry Potter
                 </a>
             </li>
-            <li class="m-0 p-0 col-6">
-                <a href="#" class="small text-success text-decoration-none font-weight-bold">
-                    <i class="fab fa-asymmetrik"></i> Avengers 
+            <li class="m-0 p-0 col-6 offset-3">
+                <a href="#" class="small text-success text-decoration-none font-weight-bold ">
+                    <i class="fas fa-jedi"></i> Star Wars
                 </a>
             </li>
+        </ul>
+            
     </nav>
 
-
-    <nav class="bg-dark  fixed-top w-100 d-none d-md-block align-items-center" style="height: 50px;">
+    <nav class="bg-dark  fixed-top w-100 d-none d-md-block " style="height: 50px;">
         <h2 class="d-none">Navigation bar for the Geekland webpage where you can find the best products related to Star Wars, Harry Potter and The Avengers</h2>
         <img class="align-self-start ml-3 mt-1 mr-3 " src="images/geekland-logo.jpeg" alt="Geekland-logo" width="50" height="40">
         <a href="main.html" class="text-success text-decoration-none font-weight-bold pl-3">
             <i class="fas fa-home"></i> Home
         </a>
         <a href="#" class="text-success text-decoration-none font-weight-bold ml-4">
-            <i class="fas fa-jedi"></i> Star Wars deals
+            <i class="fab fa-asymmetrik"></i> The Avengers 
         </a>
         <a href="#" class="text-success text-decoration-none font-weight-bold ml-4">
-            <i class="fas fa-quidditch"></i> Harry Potter deals
+            <i class="fas fa-quidditch"></i> Harry Potter 
         </a>
         <a href="#" class="text-success text-decoration-none font-weight-bold ml-4">
-            <i class="fab fa-asymmetrik"></i> The Avengers deals
+            <i class="fas fa-jedi"></i> Star Wars 
         </a>
+        
+        
     </nav>
 
+    <div class="empty" style="height:50px;"></div>
+    
+    <section class="main-container container-fluid mt-3">
+        <h2 class="d-none">Image of the three main products of the page: Harry Potter, Avengers and Star Wars themes</h2>
+        <div class="img-wrap" style="position: relative;">
+            <img class="img-fluid w-100" src="images/crossover-logo.jpg">
+            <a href="search-result.html">
+                <img class="img-thumbnail d-none d-md-block hot-deal" src="images/hot-deals.png" width="120" height="50">
+            </a>
+            <div class="d-none d-md-block">
+                <form class="search-md w-50 d-flex justify-content-around flex-column flex-wrap align-items-center" action="search-result.html">
+                    <input class="form-control form-control-sm text-success border-success bg-dark rounded-pill align-self-start w-100" type="text" placeholder="Hot Deals on Star Wars Products">
+                    <button type="submit" class="btn btn-sm rounded-pill btn-dark text-success mt-2">Search on Geekland!</button>
 
+                </form>
+            </div>
+        </div>
+        
+        <form class="d-block d-md-none mt-3 w-100 d-flex justify-content-center flex-column flex-wrap align-items-center" action="search-result.html">
+            <input class="form-control form-control-sm text-success border-success bg-dark rounded-pill align-self-start w-100" type="text" placeholder="Hot Deals on Star Wars Products">
+            <button type="submit" class="btn btn-sm rounded-pill btn-dark text-success mt-2">Search on Geekland!</button>
+        </form>
+    </section>
+
+
+    <main class="main-container container-fluid border">
+        <section class="row row-fluid">
+            <h2 class="d-none">Star wars Products</h2>
+
+            
+        </section>
+
+
+
+
+    </main>
 
 
     <script src="https://kit.fontawesome.com/859eff7750.js"></script>
