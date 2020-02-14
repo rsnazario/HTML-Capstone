@@ -66,24 +66,20 @@
 
     <div class="empty" style="height:50px;"></div>
     
-    <section class="main-container container-fluid mt-5">
+    <section class="cover-picture main-container container-fluid mt-5">
         <h2 class="d-none">Image of the three main products of the page: Harry Potter, Avengers and Star Wars themes</h2>
         <div class="img-wrap" style="position: relative;">
             <img class="img-fluid w-100" src="images/crossover-logo.jpg">
-            <a href="search-result.html">
-                <img class="img-thumbnail d-none d-md-block hot-deal" src="images/hot-deals.png" width="120" height="50">
-            </a>
             <div class="d-none d-md-block">
                 <form class="search-md w-50 d-flex justify-content-around flex-column flex-wrap align-items-center" action="search-result.html">
-                    <input class="form-control form-control-sm text-success border-success bg-dark rounded-pill align-self-start w-100" type="text" placeholder="Hot Deals on Star Wars Products">
+                    <input class="form-control form-control-sm text-success border-success bg-dark rounded-pill align-self-start w-100" type="text" placeholder="Check Out for Hot Deals">
                     <button type="submit" class="btn btn-sm rounded-pill btn-dark text-success mt-2">Search on Geekland!</button>
-
                 </form>
             </div>
         </div>
         
         <form class="d-block d-md-none mt-3 w-100 d-flex justify-content-center flex-column flex-wrap align-items-center" action="search-result.html">
-            <input class="form-control form-control-sm text-success border-success bg-dark rounded-pill align-self-start w-100" type="text" placeholder="Hot Deals on Star Wars Products">
+            <input class="form-control form-control-sm text-success border-success bg-dark rounded-pill align-self-start w-100" type="text" placeholder="Check Out for Hot Deals">
             <button type="submit" class="btn btn-sm rounded-pill btn-dark text-success mt-2">Search on Geekland!</button>
         </form>
     </section>
@@ -91,6 +87,83 @@
 
     <main class="main-container container-fluid mt-5" style="overflow: hidden;">
         
+        <section id="hot-deals" class="row-fluid pl-2 pr-2 pt-4 pb-2 border-top border-success mb-5">
+            <h2 class="d-none">Hot Deals on Geekland!</h2>
+
+            <h1 class="h1 text-star-wars text-center bg-dark rounded-pill pl-3 pr-3  title-font">Hot Deals Today</h1>
+            <div class="row mt-3 d-flex justify-content-center">
+                
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                        <a href="#star-wars">
+                            <img class="img-fluid mt-4 mb-5 mr-5 ml-3" src="images/star-wars/star-wars-watch.jpg " width="90%" >
+                        </a>
+                            <h4 class="h6 pr-1 mt-5 align-self-end text-muted "><s>$ 180,00</s></h4>
+                            <a href="#star-wars" class="align-self-start">
+                                <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
+                            </a>
+                            <h6 class="mt-n3 pr-1 h5 align-self-end"> $100,00 </h6>
+                            <a href="#star-wars" class="mt-3 pr-1  h6 text-darks text-decoration-none text-dark product-anchor">
+                                Star Wars The Black Series Collectible Limited Edition Galaxy Watch
+                            </a>
+                    </div>
+                </div>
+                
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                        <a href="#hot-deals">
+                            <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/harry-potter/lord-voldemort-action-figure.webp" width="90%" >
+                        </a>
+                            <h4 class="h6 mt-5 pr-1 align-self-end text-muted"> <s>$ 250,00</s> </h4>
+                            <a href="#hot-deals" class="align-self-start">
+                                <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
+                            </a>
+                            <h6 class="mt-n3 pr-1 h5 align-self-end"> $180,00 </h6>
+
+                            <a href="#hot-deals" class="mt-3 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
+                                Harry Potter Special Collectible Series Lord Voldemort + Snake Horcrux Action Figure           
+
+                            </a>
+                    </div>
+                </div>
+
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                        <a href="#hot-deals">
+                            <img class="img-fluid mt-3 mb-5 mr-5 ml-3" src="images/avengers/american-captain-helmet.jpg" width="90%" >
+                        </a>
+                            <h4 class="h6 mt-5 pr-1 align-self-end text-muted"> <s>$ 500,00</s> </h4>
+                            <a href="#hot-deals" class="align-self-start">
+                                <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
+                            </a>
+                            <h6 class="mt-n3 pr-1 h5 align-self-end"> $350,00 </h6>
+
+                            <a href="#hot-deals" class="mt-4 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
+                                The Avengers Special Collectible Series American-Captain Limited Edition Helmet           
+
+                            </a>
+                    </div>
+                </div>
+
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                        <a href="#hot-deals">
+                            <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/star-wars/darth-maul-lightsaber.jpg" width="75%" >
+                        </a>
+                            <h4 class="h6 mt-5 pr-1 align-self-end text-muted"> <s>$ 400,00</s> </h4>
+                            <a href="#hot-deals" class="align-self-start">
+                                <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
+                            </a>
+                            <h6 class="mt-n3 pr-1 h5 align-self-end"> $300,00 </h6>
+
+                            <a href="#hot-deals" class="mt-3 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
+                                Star Wars The Black Series Sith Lord Darth Maul Double-Blade Lightsaber
+                            </a>
+                    </div>
+                </div>
+             
+        </section>
+
         <section id="star-wars" class="row-fluid pl-2 pr-2 pt-4 pb-2 border-top border-success mb-5">
             <h2 class="d-none">Star wars Products</h2>
 
@@ -181,15 +254,15 @@
                 
                 <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
                     <div class="product p-2 border d-flex flex-column h-100 pos-rel">
-                        <a href="#star-wars">
+                        <a href="#harry-potter">
                             <img class="img-fluid mb-5 mr-5 ml-3" src="images/harry-potter/harry-potter-action-figure.webp" width="90%" >
                         </a>
                             <h4 class="h4 mt-5  pr-1 align-self-end"> $250,00 </h4>
-                            <a href="#star-wars" class="align-self-start">
+                            <a href="#harry-potter" class="align-self-start">
                                 <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
                             </a>
                             <h6 class="mt-n3 pr-1 small text-muted align-self-end"> 5x $50,00 </h6>
-                            <a href="#star-wars" class="mt-2 pr-1  h6 text-darks text-decoration-none text-dark product-anchor">
+                            <a href="#harry-potter" class="mt-2 pr-1  h6 text-darks text-decoration-none text-dark product-anchor">
                                 Harry Potter Special Collectible Series Harry Potter + Stag Patronus Action Figure
                             </a>
                     </div>
@@ -197,15 +270,15 @@
                 
                 <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
                     <div class="product p-2 border d-flex flex-column h-100 pos-rel">
-                        <a href="#star-wars">
+                        <a href="#harry-potter">
                             <img class="img-fluid mb-4 mr-5 ml-3" src="images/harry-potter/deathly-hallows-pendant.webp" width="90%" >
                         </a>
                             <h4 class="h4 mt-5 pr-1 align-self-end"> $180,00 </h4>
-                            <a href="#star-wars" class="align-self-start">
+                            <a href="#harry-potter" class="align-self-start">
                                 <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
                             </a>
                             <h6 class="mt-n3 pr-1 small text-muted align-self-end"> 4x $45,00 </h6>
-                            <a href="#star-wars" class="mt-3 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
+                            <a href="#harry-potter" class="mt-3 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
                                 Harry Potter Special Collectible Series Deathly Hallows Silver Pendant
                             </a>
                     </div>
@@ -213,16 +286,16 @@
 
                 <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
                     <div class="product p-2 border d-flex flex-column h-100 pos-rel" >
-                        <a href="#star-wars">
+                        <a href="#harry-potter">
                             <img class="img-fluid mb-4 mr-5 ml-3" src="images/harry-potter/lord-voldemort-wand-collectible.webp" width="90%" >
                         </a>
                         
                             <h4 class="h4 mt-5 align-self-end"> $160,00 </h4>
-                            <a href="#star-wars" class="align-self-start">
+                            <a href="#harry-potter" class="align-self-start">
                                 <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
                             </a>
                             <h6 class="mt-n3 small text-muted align-self-end"> 4x $40,00 </h6>
-                            <a href="#star-wars" class="mt-5 h6 text-darks text-decoration-none text-dark product-anchor">
+                            <a href="#harry-potter" class="mt-5 h6 text-darks text-decoration-none text-dark product-anchor">
                                 Harry Potter Special Collectible Series Lord Voldemort Magic Wand With Case
                             </a>
                             
@@ -231,15 +304,15 @@
 
                 <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5 ">
                     <div class="product p-2 border d-flex flex-column h-100 pos-rel">
-                        <a href="#star-wars">
+                        <a href="#harry-potter">
                             <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/harry-potter/hogwarts-student-hat.webp" width="90%" >
                         </a>
                             <h4 class="h4 mt-5 pt-3 pr-1 align-self-end"> $120,00 </h4>
-                            <a href="#star-wars" class="align-self-start">
+                            <a href="#harry-potter" class="align-self-start">
                                 <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
                             </a>
                             <h6 class="mt-n3 pr-1 small text-muted align-self-end">4x $30,00 </h6>
-                            <a href="#star-wars" class="mt-2 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
+                            <a href="#harry-potter" class="mt-2 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
                                 Harry Potter Special Collectible Series Hogwarts Student Wizard Hat 
                             </a>
                     </div>
@@ -264,15 +337,15 @@
                 
                 <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
                     <div class="product p-2 border d-flex flex-column h-100 pos-rel">
-                        <a href="#star-wars">
+                        <a href="#avengers">
                             <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/avengers/iron-man-mask.jpg" width="90%" >
                         </a>
                             <h4 class="h4 mt-5 pr-1 align-self-end"> $500,00 </h4>
-                            <a href="#star-wars" class="align-self-start">
+                            <a href="#avengers" class="align-self-start">
                                 <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
                             </a>
                             <h6 class="mt-n3 pr-1 small text-muted align-self-end"> 5x $100,00 </h6>
-                            <a href="#star-wars" class="mt-4 pr-1  h6 text-darks text-decoration-none text-dark product-anchor">
+                            <a href="#avengers" class="mt-4 pr-1  h6 text-darks text-decoration-none text-dark product-anchor">
                                 The Avengers Special Collectible Series Iron-man Limited Edition Metal Helmet
                             </a>
                     </div>
@@ -280,14 +353,14 @@
                 
                 <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
                     <div class="product p-2 border d-flex flex-column h-100 pos-rel">
-                        <a href="#star-wars">
+                        <a href="#avengers">
                             <img class="img-fluid mb-4 mr-5 ml-3" src="images/avengers/avengers-endgame-poster.jpg" width="80%" >
                         </a>
                             <h4 class="h4 mt-5 pr-1 align-self-end"> $30,00 </h4>
-                            <a href="#star-wars" class="align-self-start">
+                            <a href="#avengers" class="align-self-start">
                                 <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
                             </a>
-                            <a href="#star-wars" class="mt-3 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
+                            <a href="#avengers" class="mt-3 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
                                 The Avengers Special Edition Poster Avengers: Endgame Movie
                             </a>
                     </div>
@@ -295,16 +368,16 @@
 
                 <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
                     <div class="product p-2 border d-flex flex-column h-100 pos-rel" >
-                        <a href="#star-wars">
+                        <a href="#avengers">
                             <img class="img-fluid mt-5 mb-5 mr-5 ml-3" src="images/avengers/heavy-iron-man-action-figure.jpg" width="90%" >
                         </a>
                         
                             <h4 class="h4 mt-5 align-self-end"> $250,00 </h4>
-                            <a href="#star-wars" class="align-self-start">
+                            <a href="#avengers" class="align-self-start">
                                 <i class="far fa-plus-square fa-2x mt-n4 text-muted align-self-start"></i>
                             </a>
                             <h6 class="mt-n3 small text-muted align-self-end"> 5x $50,00 </h6>
-                            <a href="#star-wars" class="mt-3 h6 text-darks text-decoration-none text-dark product-anchor">
+                            <a href="#avengers" class="mt-3 h6 text-darks text-decoration-none text-dark product-anchor">
                                 The Avengers Special Collectible Series Heavy Iron-man Action Figure
                             </a>
                             
@@ -313,14 +386,14 @@
 
                 <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5 ">
                     <div class="product p-2 border d-flex flex-column h-100 pos-rel">
-                        <a href="#star-wars">
+                        <a href="#avengers">
                             <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/avengers/avengers-keychain.jpg" width="70%" >
                         </a>
                             <h4 class="h4 mt-5 pt-3 pr-1 align-self-end"> $15,00 </h4>
-                            <a href="#star-wars" class="align-self-start">
+                            <a href="#avengers" class="align-self-start">
                                 <i class="far fa-plus-square fa-2x mt-n5 text-muted align-self-start"></i>
                             </a>
-                            <a href="#star-wars" class="mt-2 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
+                            <a href="#avengers" class="mt-2 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
                                 The Avengers Special Collectible Series Avengers Golden Keychain
                             </a>
                     </div>
