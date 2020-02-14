@@ -26,6 +26,16 @@
   left: 25%;
 }
 
+.pos-rel {
+  position: relative;
+}
+
+.abs-bottom {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+}
+
 .text-star-wars {
   color: yellow;
 }
