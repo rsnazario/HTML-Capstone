@@ -2,12 +2,12 @@
   font-family: 'Girassol', cursive;
 }
 
-.fa-plus-square {
-  opacity: 0.3;
-}
-
 .title-font {
   font-family: 'Saira Stencil One', cursive;
+}
+
+.fa-plus-square {
+  opacity: 0.3;
 }
 
 .main-container {
@@ -40,7 +40,7 @@
 
 .product:hover {
   transform: scale(1.03);
-  -webkit-box-shadow: 18px 20px 32px -10px rgba(0,0,0,0.5);
-  -moz-box-shadow: 18px 20px 32px -10px rgba(0,0,0,0.5);
-  box-shadow: 18px 20px 32px -20px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 18px 20px 32px -10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 18px 20px 32px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 18px 20px 32px -20px rgba(0, 0, 0, 0.5);
 }
