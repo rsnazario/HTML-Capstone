@@ -1,15 +1,31 @@
+* {
+  font-family: 'Girassol', cursive;
+}
+
+.title-font {
+  font-family: 'Saira Stencil One', cursive;
+}
+
 .main-container {
-    max-width: 1330px;
+  max-width: 1330px;
 }
 
 .hot-deal {
-    position: absolute;
-    top: 6%;
-    right: 10%;
+  position: absolute;
+  top: 6%;
+  right: 10%;
 }
 
 .search-md {
-    position: absolute;
-    bottom: 10%;
-    left: 25%;
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+}
+
+.text-star-wars {
+  color: yellow;
+}
+
+.product-anchor:hover {
+    color: blue !important;
 }
