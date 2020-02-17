@@ -34,10 +34,6 @@
   color: yellow;
 }
 
-.product-anchor:hover {
-  color: blue !important;
-}
-
 .product:hover {
   transform: scale(1.03);
   -webkit-box-shadow: 18px 20px 32px -10px rgba(0, 0, 0, 0.5);
