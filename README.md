@@ -4,6 +4,7 @@
 
 > This project is completed by Rafael Nazario, as part of Microverse curriculum.  
 > The main task of this project was to show that I have understood and masterized the main concepts of HTML and CSS through the program so far by building a shopping page the way I wanted to.
+> The main characteristics of the design were choosen based on [Mohammed Awad](https://www.behance.net/M_Awad) Behance Project for an Electronic Shopping Page named [Zattix](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ---
 
