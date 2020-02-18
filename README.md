@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/rsnazario/HTML-Capstone/feature-capstone-geekland/main.html)
+[Live Demo Link](https://rawcdn.githack.com/rsnazario/HTML-Capstone/75bec46b269644b762b339b5fdde78fa15eb3f7f/search-result.html?)
 
 ## Video Presentation
 
