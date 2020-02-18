@@ -121,7 +121,7 @@ footer > div {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
   nav ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
