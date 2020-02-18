@@ -1,23 +1,45 @@
 * {
-  font-family: 'Girassol', cursive;
+  font-family: sans-serif, Helvetica;
 }
 
-.title-font {
-  font-family: 'Saira Stencil One', cursive;
+#top-of-page {
+  background-color: rgba(211, 211, 211, 0.2);
 }
 
 .fa-plus-square {
   opacity: 0.3;
 }
 
+.nav-container {
+  max-width: 1500px;
+}
+
 .main-container {
   max-width: 1330px;
 }
 
-.search-md {
-  position: absolute;
-  bottom: 10%;
-  left: 25%;
+.bg-383838 {
+  background-color: #383838;
+}
+
+.text-zattix {
+  color: #d35266;
+}
+
+.text-zattix:hover {
+  color: #a1414f;
+}
+
+.text-gray {
+  color: #888888;
+}
+
+.text-gray:hover {
+  color: #575454;
+}
+
+.bg-zattix {
+  background-color: #d35266 !important;
 }
 
 .pos-rel {
@@ -28,6 +50,10 @@
   position: absolute;
   bottom: 2%;
   left: 2%;
+}
+
+.bg-383838 {
+  background-color: #383838;
 }
 
 .text-star-wars {

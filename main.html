@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geekland</title>
     <link rel="icon" href="images/geekland-logo.jpeg">
+    <link href="Gotham-Bold_0_7163aa8bf87d8495b8fa6fab4ae797c2.otf" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/main-style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -16,28 +17,29 @@
 
 <body id="top-of-page">
 
-    <nav class="d-md-none bg-dark fixed-top" style="height:50px;">
+    <nav class="d-md-none bg-383838 fixed-top" style="height:50px;">
         <h2 class="d-none">Navigation bar for the Geekland webpage where you can find the best products related to Star Wars, Harry Potter and The Avengers</h2>
+
         <img class="ml-2 mt-1 ml-1 float-left" src="images/geekland-logo.jpeg" alt="Geekland-logo" width="50" height="40">
 
         <ul class="row row-fluid m-0 p-0 list-unstyled ">
             <li class="m-0 p-0 col-6">
-                <a href="main.html" class="small text-success text-decoration-none font-weight-bold pl-3">
+                <a href="main.html" class="small text-zattix text-decoration-none font-weight-bold pl-3">
                     <i class="fas fa-home"></i> Home
                 </a>
             </li>
             <li class="m-0 p-0 col-6">
-                <a href="#" class="small text-success text-decoration-none font-weight-bold">
+                <a href="#" class="small text-gray text-decoration-none font-weight-bold">
                     <i class="fab fa-asymmetrik"></i> Avengers 
                 </a>
             </li>
             <li class="m-0 p-0 col-6 pl-3">
-                <a href="#" class="small text-success text-decoration-none font-weight-bold ">
+                <a href="#" class="small text-gray text-decoration-none font-weight-bold ">
                     <i class="fas fa-quidditch"></i> Harry Potter
                 </a>
             </li>
             <li class="m-0 p-0 col-6 offset-3">
-                <a href="#" class="small text-success text-decoration-none font-weight-bold ">
+                <a href="#" class="small text-gray text-decoration-none font-weight-bold ">
                     <i class="fas fa-jedi"></i> Star Wars
                 </a>
             </li>
@@ -45,56 +47,86 @@
             
     </nav>
 
-    <nav class="bg-dark  fixed-top w-100 d-none d-md-block " style="height: 50px;">
-        <h2 class="d-none">Navigation bar for the Geekland webpage where you can find the best products related to Star Wars, Harry Potter and The Avengers</h2>
-        <img class="align-self-start ml-3 mt-1 mr-3 " src="images/geekland-logo.jpeg" alt="Geekland-logo" width="50" height="40">
-        <a href="main.html" class="text-success text-decoration-none font-weight-bold pl-3">
-            <i class="fas fa-home"></i> Home
-        </a>
-        <a href="#" class="text-success text-decoration-none font-weight-bold ml-4">
-            <i class="fab fa-asymmetrik"></i> The Avengers 
-        </a>
-        <a href="#" class="text-success text-decoration-none font-weight-bold ml-4">
-            <i class="fas fa-quidditch"></i> Harry Potter 
-        </a>
-        <a href="#" class="text-success text-decoration-none font-weight-bold ml-4">
-            <i class="fas fa-jedi"></i> Star Wars 
-        </a>
-        
-        
-    </nav>
-
-    <div class="empty" style="height:50px;"></div>
-    
-    <section class="cover-picture main-container container-fluid mt-5">
-        <h2 class="d-none">Image of the three main products of the page: Harry Potter, Avengers and Star Wars themes</h2>
-        <div class="img-wrap" style="position: relative;">
-            <img class="img-fluid w-100" src="images/crossover-logo.jpg" alt="crossover-harrypotter-avengers-starwars">
-            <div class="d-none d-md-block">
-                <form class="search-md w-50 d-flex justify-content-around flex-column flex-wrap align-items-center" action="search-result.html">
-                    <input class="form-control form-control-sm text-success border-success bg-dark rounded-pill align-self-start w-100" type="text" placeholder="Check Out for Hot Deals">
-                    <button type="submit" class="btn btn-sm rounded-pill btn-dark text-success mt-2">Search on Geekland!</button>
-                </form>
-            </div>
+    <nav class="bg-383838 fixed-top w-100 d-none d-md-block" style="height: 50px;">
+        <div class="nav-container container-fluid">
+            <h2 class="d-none">Navigation bar for the Geekland webpage where you can find the best products related to Star Wars, Harry Potter and The Avengers</h2>
+            <img class="align-self-start ml-3 mt-1 mr-3 " src="images/geekland-logo.jpeg" alt="Geekland-logo" width="50" height="40">
+            <a href="main.html" class="text-zattix text-decoration-none font-weight-bold pl-3">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <a href="#avengers" class="text-gray text-decoration-none font-weight-bold ml-4">
+                <i class="fab fa-asymmetrik"></i> The Avengers 
+            </a>
+            <a href="#harry-potter" class="text-gray text-decoration-none font-weight-bold ml-4">
+                <i class="fas fa-quidditch"></i> Harry Potter 
+            </a>
+            <a href="#star-wars" class="text-gray text-decoration-none font-weight-bold ml-4">
+                <i class="fas fa-jedi"></i> Star Wars 
+            </a>
+            <button type="submit" class="btn btn-sm rounded-0 font-weight-bold bg-zattix text-gray btn-danger ml-3 p-1">
+                POST AN AD
+            </button>
         </div>
-        
-        <form class="d-block d-md-none mt-3 w-100 d-flex justify-content-center flex-column flex-wrap align-items-center" action="search-result.html">
-            <input class="form-control form-control-sm text-success border-success bg-dark rounded-pill align-self-start w-100" type="text" placeholder="Check Out for Hot Deals">
-            <button type="submit" class="btn btn-sm rounded-pill btn-dark text-success mt-2">Search on Geekland!</button>
-        </form>
+    </nav>
+    
+    <section class="cover-header d-none d-md-block w-100 container-fluid mt-5 bg-zattix">
+        <h2 class="d-none">Header of the Geekland Shopping Page with Searching mechanism to find products on the page</h2>
+        <div class="d-flex flex-column align-items-center pt-2 pb-2">
+            <img class="ml-2 mt-1 ml-1" src="images/geekland-logo.jpeg" alt="Geekland-logo" width="100" height="100">
+            <h4 class="text-white pt-3 font-weight-bold">
+                The GeekLand Shop
+            </h4>
+            <h6 class="text-white">
+                More than selling products! Selling culture!
+            </h6>
+            
+            <form class="main-container main-container w-100 ml-5 mr-5 d-flex flex-column flex-wrap align-items-center" action="search-result.html">
+                    <input class="form-control w-100 form-control-lg text-gray bg-383838 align-self-start w-100" type="text" placeholder="Check Out for Hot Deals">
+                    <button type="submit" class="btn btn-sm pt-1 pb-1 pl-3 pr-3 rounded-0 btn-dark mt-2">Search on Geekland!</button>
+            </form>
+        </div>
     </section>
 
 
-    <main class="main-container container-fluid mt-5" style="overflow: hidden;">
+    <section id="special-deal" class="d-none d-md-block w-100 bg-white pl-2 pr-2 pt-5 mb-3" >
+            
+        <div class="main-container container-fluid">
+            <h2 class="d-none">Special Deal of the Week: All-Avengers small-version action figure</h2>
+            <h5 class="h5 text-gray pb-3 pl-3 pr-3 font-weight-bold title-font ">Deal of the Week</h5>
+            <div class="d-flex">
+                    <img class="img-fluid mt-4 mb-5 mr-5 ml-3" src="images/avengers/avengers-action-figures.jpg" alt="star-wars-watch" style="width: 32%;">
+                <div class="p-2 ">
+                    <h4 class="h4 text-dark pt-3">All The Avengers Small Version Action Figure</h4>
+                    <h5 class="h5 text-gray pt-3 pr-5">
+                        A complete collection in small version of the main characters of the Avengers of the Avengers: Endgame movie
+                    </h5> 
+                    <h6 class="h6 d-none d-lg-block text-gray pt-2 pr-5">
+                        The Collection is made with 11 action figures, counting with the most iconics characters: Iron-Man, Spider-man, Captain America, Thor and Doctor Strange
+                    </h6>
+                    <div class="pt-3 d-flex">
+                        <button class="btn btn-sm btn-danger bg-zattix font-weight-bold pt-1 pb-1 pl-3 pr-3">
+                            300 $
+                        </button>
+                        <button class="btn btn-sm btn-danger bg-zattix font-weight-bold ml-3 pt-1 pb-1 pl-3 pr-3">
+                            <i class="fas fa-shopping-cart pr-2"></i> Purchase Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-container container-fluid " style="overflow: hidden;">
         
-        <section id="hot-deals" class="row-fluid pl-2 pr-2 pt-4 pb-2 border-top border-success mb-5">
+        <section id="hot-deals" class="row-fluid pl-2 pr-2 pt-4 pb-2 mt-3 mb-3">
             <h2 class="d-none">Hot Deals on Geekland!</h2>
 
-            <h1 class="h1 text-star-wars text-center bg-dark rounded-pill pl-3 pr-3  title-font">Hot Deals</h1>
+            <h5 class="h5 text-gray border-bottom border-dark pb-3 pl-3 pr-3 font-weight-bold title-font ">
+                <i class="fab fa-hotjar pr-3"></i> Hot Deals <span class="small">(All Watches, Action Figures, Helmets and Lightsabers)</span>
+            </h5>
             <div class="row mt-3 d-flex justify-content-center">
-                
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#star-wars">
                             <img class="img-fluid mt-4 mb-5 mr-5 ml-3" src="images/star-wars/star-wars-watch.jpg" alt="star-wars-watch" style="width: 90%;">
                         </a>
@@ -109,8 +141,8 @@
                     </div>
                 </div>
                 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#hot-deals">
                             <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/harry-potter/lord-voldemort-action-figure.webp" alt="lord-voldemort-action-figure" style="width: 90%;">
                         </a>
@@ -127,8 +159,8 @@
                     </div>
                 </div>
 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#hot-deals">
                             <img class="img-fluid mt-3 mb-5 mr-5 ml-3" src="images/avengers/american-captain-helmet.jpg" alt="american-captain-helmet" style="width: 90%;">
                         </a>
@@ -139,14 +171,14 @@
                             <h6 class="mt-n3 pr-1 h5 align-self-end"> $350,00 </h6>
 
                             <a href="#hot-deals" class="mt-4 pr-1 h6 text-darks text-decoration-none text-dark product-anchor">
-                                The Avengers Special Collectible Series American-Captain Limited Edition Helmet           
+                                The Avengers Special Collectible Series Captain America Limited Edition Helmet           
 
                             </a>
                     </div>
                 </div>
 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#hot-deals">
                             <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/star-wars/darth-maul-lightsaber.jpg" alt="darth-maul-lightsaber" style="width: 75%;" >
                         </a>
@@ -164,14 +196,16 @@
              </div>
         </section>
 
-        <section id="star-wars" class="row-fluid pl-2 pr-2 pt-4 pb-2 border-top border-success mb-5">
+        <section id="star-wars" class="row-fluid pl-2 pr-2 pt-4 pb-2 mb-3">
             <h2 class="d-none">Star wars Products</h2>
-
-            <h1 class="h1 text-star-wars text-center bg-dark rounded-pill pl-3 pr-3  title-font">Star Wars</h1>
+            
+            <h5 class="h5 text-gray border-bottom border-dark pb-3 pl-3 pr-3 font-weight-bold title-font ">
+                <i class="fas fa-jedi pr-3"></i> Star Wars <span class="small">(Kylo Ren Saber, Darth Vader Helmet and much more)</span>
+            </h5>
             <div class="row mt-3 d-flex justify-content-center">
                 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#star-wars">
                             <img class="img-fluid mb-4 mr-5 ml-3" src="images/star-wars/kylo-ren-lightsaber.jpg" alt="kylo-ren-lightsaber" style="width: 90%;">
                         </a>
@@ -186,8 +220,8 @@
                     </div>
                 </div>
                 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#star-wars">
                             <img class="img-fluid mb-4 mr-5 ml-3" src="images/star-wars/darth-vader-helmet.jpg" alt="darth-vader-helmet" style="width: 90%;" >
                         </a>
@@ -202,8 +236,8 @@
                     </div>
                 </div>
 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel" >
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white" >
                         <a href="#star-wars">
                             <img class="img-fluid mb-4 mr-5 ml-3" src="images/star-wars/han-solo-blaster.jpg" alt="han-solo-blaster" style="width: 90%;">
                         </a>
@@ -220,8 +254,8 @@
                     </div>
                 </div>
 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5 ">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#star-wars">
                             <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/star-wars/millenium-falcon-keychain.jpg" alt="millenium-falcon-keychain" style="width: 90%;">
                         </a>
@@ -244,14 +278,17 @@
 
         </section>
 
-        <section id="harry-potter" class="row-fluid pl-2 pr-2 pt-4 pb-2 border-top border-success mb-5">
+        <section id="harry-potter" class="row-fluid pl-2 pr-2 pt-4 pb-2 mb-3">
             <h2 class="d-none">Harry Potter Products</h2>
-
-            <h1 class="h1 text-star-wars text-center bg-dark rounded-pill pl-3 pr-3  title-font">Harry Potter</h1>
+            
+            <h5 class="h5 text-gray border-bottom border-dark pb-3 pl-3 pr-3 font-weight-bold title-font ">
+                <i class="fas fa-quidditch pr-3"></i> Harry Potter <span class="small">(Harry Potter Action Figure, Collectible Wands and much more)</span>
+            </h5>
+            
             <div class="row mt-3 d-flex justify-content-center">
                 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#harry-potter">
                             <img class="img-fluid mb-5 mr-5 ml-3" src="images/harry-potter/harry-potter-action-figure.webp" alt="harry-potter-action-figure" style="width: 90%;">
                         </a>
@@ -266,8 +303,8 @@
                     </div>
                 </div>
                 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#harry-potter">
                             <img class="img-fluid mb-4 mr-5 ml-3" src="images/harry-potter/deathly-hallows-pendant.webp" alt="deathly-hallows-pendant" style="width: 90%;">
                         </a>
@@ -282,8 +319,8 @@
                     </div>
                 </div>
 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel" >
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white" >
                         <a href="#harry-potter">
                             <img class="img-fluid mb-4 mr-5 ml-3" src="images/harry-potter/lord-voldemort-wand-collectible.webp" alt="lord-voldemort-wand-collectible" style="width: 90%;">
                         </a>
@@ -300,8 +337,8 @@
                     </div>
                 </div>
 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5 ">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#harry-potter">
                             <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/harry-potter/hogwarts-student-hat.webp" alt="hogwarts-student-hat" style="width: 90%;">
                         </a>
@@ -325,14 +362,16 @@
 
         </section>
 
-        <section id="avengers" class="row-fluid pl-2 pr-2 pt-4 pb-2 border-top border-success mb-5">
+        <section id="avengers" class="row-fluid pl-2 pr-2 pt-4 pb-2 mb-3">
             <h2 class="d-none">The Avengers Products</h2>
 
-            <h1 class="h1 text-star-wars text-center bg-dark rounded-pill pl-3 pr-3  title-font">Avengers</h1>
+            <h5 class="h5 text-gray border-bottom border-dark pb-3 pl-3 pr-3 font-weight-bold title-font ">
+                <i class="fab fa-asymmetrik pr-3"></i> Avengers <span class="small">(Iron-man Helmet, Action Figures and much more)</span>
+            </h5>
             <div class="row mt-3 d-flex justify-content-center">
                 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#avengers">
                             <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/avengers/iron-man-mask.jpg" alt="iron-man-mask" style="width: 90%;">
                         </a>
@@ -347,8 +386,8 @@
                     </div>
                 </div>
                 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#avengers">
                             <img class="img-fluid mb-4 mr-5 ml-3" src="images/avengers/avengers-endgame-poster.jpg" alt="avengers-endgame-poster" style="width: 80%;">
                         </a>
@@ -362,8 +401,8 @@
                     </div>
                 </div>
 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel" >
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white" >
                         <a href="#avengers">
                             <img class="img-fluid mt-5 mb-5 mr-5 ml-3" src="images/avengers/heavy-iron-man-action-figure.jpg" alt="heavy-iron-man-action-figure" style="width: 90%;">
                         </a>
@@ -380,8 +419,8 @@
                     </div>
                 </div>
 
-                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-5 ">
-                    <div class="product p-2 border d-flex flex-column h-100 pos-rel">
+                <div class="col-11 col-sm-6 col-md-3 col-lg-3 mt-3">
+                    <div class="product p-2 border d-flex flex-column h-100 pos-rel bg-white">
                         <a href="#avengers">
                             <img class="img-fluid mt-3 mb-4 mr-5 ml-3" src="images/avengers/avengers-keychain.jpg" alt="avengers-keychain" style="width: 70%;">
                         </a>
@@ -406,20 +445,20 @@
 
     </main>
 
-    <footer class="bg-dark w-100" style="height: 50px;">
+    <footer class="bg-383838 w-100" style="height: 50px;">
         <h2 class="d-none">Footer of the Geekland Page with information of how to Contact, About the Store and social media links</h2>
         
         <div class="main-container container-fluid h-100 d-flex justify-content-between">
             <img class="align-self-start ml-2 mt-1 ml-1 float-left" src="images/geekland-logo.jpeg" alt="Geekland-logo" width="50" height="40">
 
-            <span class="d-none d-md-block h2 title-font text-success align-self-end">THE GEEKLAND SHOP</span>
+            <span class="d-none d-md-block h2 title-font text-zattix align-self-end">THE GEEKLAND SHOP</span>
 
             <div class="d-flex align-items-center">
-                <a href="#" class="text-decoration-none text-success font-weight-bold pr-2">About us</a>
+                <a href="#" class="text-decoration-none text-gray font-weight-bold pr-2">About us</a>
 
-                <a href="#" class="text-decoration-none text-success font-weight-bold pr-2">Contact Us</a>
+                <a href="#" class="text-decoration-none text-gray font-weight-bold pr-2">Contact Us</a>
                 
-                <a href="#top-of-page" class="d-none d-sm-block text-decoration-none text-success font-weight-bold ">Back to Top <i class="fas fa-level-up-alt"></i>
+                <a href="#top-of-page" class="d-none d-sm-block text-decoration-none text-gray font-weight-bold ">Back to Top <i class="fas fa-level-up-alt"></i>
                 </a>
             </div>
 
